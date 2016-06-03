@@ -1,6 +1,14 @@
 $(document).ready(function() {
 
+  $("form#greetings-form").submit(function(event) {
+    var person1Input = $("input#person1").val();
 
+    $(".person1").text(person1Input);
+
+    $("#reveal-name").show();
+
+    event.preventDefault();
+  });
   //Back-end or Business Logic
 
   $("form#vacation-form").submit(function(event) {
@@ -17,16 +25,6 @@ $(document).ready(function() {
     var result = questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix +questionSeven + questionEight + questionNine + questionTen;
 
 //Front-end or User Interface (UI) logic
-
-$("form#greetings-form").submit(function(event) {
-  var person1Input = $("input#person1").val();
-
-  $(".person1").text(person1Input);
-
-  $("#reveal-name").show();
-
-  event.preventDefault();
-});
 
     if (result < 10) {
       $("#destination").text("answer some more questions. Nothing in life is free. To get your recommendation, you must enter more responses");
@@ -67,12 +65,11 @@ $("form#greetings-form").submit(function(event) {
     }
 
     $("#reveal-destination").show();
+    $("#more-destinations").show();
 
-    $("#clickme").click(function() {
-      $("#book").fadeIn("slow", function() {
-        // Animation complete
-      })
-    })
+    $("#more-destinations").click(function() {
+      $("#kathmandu-hidden").fadeIn();
+    });
 
     event.preventDefault();
   });

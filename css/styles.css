@@ -5,6 +5,7 @@ body {
 
 img {
   display: none;
+  margin: 20px;
 }
 
 select {
@@ -48,6 +49,10 @@ button {
 }
 
 #reveal-destination {
+  display: none;
+}
+
+#more-destinations {
   display: none;
 }
 
