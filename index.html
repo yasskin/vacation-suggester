@@ -5,24 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/favicon.ico">
-
     <title>Vacation Suggester: JavaScript and jQuery Independent Project</title>
-
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/scripts.js"></script>
   </head>
-
   <body>
     <div class="container">
-
       <div class="jumbotron">
         <h1>Vacation Suggester</h1>
         <p>Which of the World's Great Destination Cities Should You Visit?</p>
       </div>
-
       <div class="page-header">
         <h1>Take the Survey</h1>
         <form id="greetings-form">
@@ -30,16 +25,14 @@
             <h3>Hello, human, to find your destination, tell me your name.</h3>
             <input id="person1" class="form-control" type="text">
           </div>
-          <button type="submit" class"btn">Submit!</button>
+          <button type="submit" class="btn btn-lg btn-primary">Submit!</button>
         </form>
         <div id="reveal-name">
           <p>Hello<span class="person1"></span></p>
         </div>
       </div>
-
       <div class="row">
         <div class="col-md-6">
-
           <h3>Read each statement and let me know whether you agree or disagree</h3>
           <form id="vacation-form">
             <div class="from control">
@@ -105,7 +98,6 @@
                 <option value="10">Agree</option>
                 <option value="1">Disagree</option>
               </select>
-
               <h4>Bonus: I prefer Star Wars to Schindler's List</h4>
               <label class="checkbox-inline" for="question-11">
                 <input type="checkbox" id="inlineCheckbox1" value="10"> True
@@ -116,63 +108,57 @@
               <label class="checkbox-inline">
                 <input type="checkbox" id="inlineCheckbox3" value="5"> Not sure
               </label>
-
             </div>
             <button type="submit" class="btn btn-lg btn-success">Where should I vacation?</button>
           </form>
         </div>
-
         <div class="col-md-6">
-
           <div id="reveal-destination">
             <h4>Well<span class="person1"></span></h4>
-            <h4>Vacation Suggester recommend that you should: <span id="destination"></span>.</h4>
+            <h4>You should go to <span id="destination"></span>.</h4>
           </div>
-
           <div id="try-again-hidden">
-            <img id="try-again" src="img/try-again.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img id="try-again" src="img/try-again.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="london-hidden">
-            <img id="london" src="img/london-england.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img id="london" src="img/london-england.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="sydney-hidden">
-            <img src="img/sydney-australia.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/sydney-australia.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="amsterdam-hidden">
-            <img src="img/amsterdam-netherlands.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/amsterdam-netherlands.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="paris-hidden">
-            <img src="img/paris-france.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/paris-france.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="rome-hidden">
-            <img src="img/rome-italy.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/rome-italy.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="budapest-hidden">
-            <img src="img/budapest-hungary.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/budapest-hungary.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="tokyo-hidden">
-            <img src="img/tokyo-japan.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/tokyo-japan.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="cusco-hidden">
-            <img src="img/cusco-peru.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/cusco-peru.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="marrakech-hidden">
-            <img src="img/marrakech-morocco.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/marrakech-morocco.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="siem-reap-hidden">
-            <img src="img/siem-reap-cambodia.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/siem-reap-cambodia.jpg" class="img-responsive" alt="responsive image">
           </div>
           <div id="kathmandu-hidden">
-            <img src="img/kathmandu-nepal.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/kathmandu-nepal.jpg" class="img-responsive" alt="responsive image">
           </div>
-
           <div id="more-destinations">
             <span>Click to see the button you won!</span>
           </div>
           <div id="wanderlust">
-            <img src="img/wanderlust.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img src="img/wanderlust.jpg" class="img-responsive" alt="responsive image">
           </div>
-
         </div>
       </div>
     </div>
