@@ -17,23 +17,39 @@ $(document).ready(function() {
     var questionFour = parseInt($("select#question-4").val());
     var questionFive = parseInt($("select#question-5").val());
     var questionSix = parseInt($("select#question-6").val());
-    var result = (questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix);
+    var questionSeven = parseInt($("select#question-7").val());
+    var questionEight = parseInt($("select#question-8").val());
+    var questionNine = parseInt($("select#question-9").val());
+    var questionTen = parseInt($("select#question-10").val());
+    var result = questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix +questionSeven + questionEight + questionNine + questionTen;
 
-    if (result === 0) {
-      $("#destination").text("Destination One");
-    } else if (result === 1) {
-      $("#destination").text("Destination Two");
-    } else if (result === 2) {
-      $("#destination").text("Destination Three");
-    } else if (result === 3) {
-      $("#destination").text("Destination Four");
-    } else if (result >= 4) {
-      $("#destination").text("Destination Five");
+    if (result < 20) {
+      $("#destination").text("Destination 1");
+    } else if (result >= 10 && result < 20) {
+      $("#destination").text("Destination 2");
+    } else if (result >= 20 && result < 30) {
+      $("#destination").text("Destination 3");
+    } else if (result >= 30 && result < 40) {
+      $("#destination").text("Destination 4");
+    } else if (result >= 40 && result < 50) {
+      $("#destination").text("Destination 5");
+    } else if (result >= 50 && result < 60) {
+      $("#destination").text("Destination 6");
+    } else if (result >= 60 && result < 70) {
+      $("#destination").text("Destination 7");
+    } else if (result >= 70 && result <80) {
+      $("#destination").text("Destination 8");
+    } else if (result >= 80 && result <90) {
+      $("#destination").text("Destination 9");
+    } else if (result >= 90 && result <100) {
+      $("#destination").text("Destination 10");
+    } else if (result = 100) {
+      $("#destination").text("Destination 11");
     }
 
     $("#reveal-destination").show();
 
     event.preventDefault();
   });
-  
+
 });
