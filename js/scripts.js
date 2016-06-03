@@ -68,9 +68,11 @@ $("form#greetings-form").submit(function(event) {
 
     $("#reveal-destination").show();
 
-    $("img").click(function() {
-      alert("This is an image.");
-    });
+    $("#clickme").click(function() {
+      $("#book").fadeIn("slow", function() {
+        // Animation complete
+      })
+    })
 
     event.preventDefault();
   });

@@ -127,6 +127,18 @@
           <div id="reveal-destination">
             <p>Well,<span class="person1"></span></p>
             <p>We recommend that you should: <span id="destination"></span>.</p>
+
+            <span>Click here to see more great destinations...</span>
+            <div id="london-hidden"></div>
+            <div id="sydney-hidden"></div>
+            <div id="amsterdam-hidden"></div>
+
+            <script>
+            $( document.body ).click(function() {
+              $( "div:hidden:first" ).fadeIn( "slow" );
+            });
+            </script>
+
           </div>
 
           <div id="try-again-hidden">
@@ -134,7 +146,7 @@
           </div>
           <div id="london-hidden">
             click here
-            <img src="img/london-england.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+            <img id="london" src="img/london-england.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
           </div>
           <div id="sydney-hidden">
             <img src="img/sydney-australia.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
@@ -166,6 +178,7 @@
           <div id="kathmandu-hidden">
             <img src="img/kathmandu-nepal.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
           </div>
+
 
         </div>
       </div>
