@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Suggester: JavaScript and jQuery Independent Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vacation Suggester</h1>
+      <h3>Where On Earth Should You Go?</h3>
+      <p>A webpage (using HTML, CSS, JavaScript and JQuery) where a user can answer questions about themselves and be given a vacation destination based on their answers.</p>
+      <p>The site has six survey questions. It offers a minimum of 3 vacation destination suggestions.Note: You are not required to take every possible combination of answers into account. Feel free to use very simple logic, or even ignore the user's responses for some questions..</p>
+
+      <form id="greetings-form">
+        <div class="form-group">
+          <label for="person1">Hello, What is your name?</label>
+          <input id="person1" class="form-control" type="text">
+        </div>
+        <button type="submit" class"btn">Submit!</button>
+      </form>
+
+      <form id="vacation-form">
+        <div class="form-group">
+          <label for="question-1">Do you?</label>
+          <select id="question-1">
+            <option value="1">Option 1</option>
+            <option value="0">Option 2</option>
+          </select>
+          <label for="question-2">Would you ?</label>
+          <select id="question-2">
+            <option value="1">Option 1</option>
+            <option value="0">Option 2</option>
+          </select>
+          <label for="question-3">Have you?</label>
+          <select id="question-3">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+          <label for="question-4">Can you?</label>
+          <select id="question-4">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+          <label for="question-5">Should you ?</label>
+          <select id="question-5">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+          <label for="question-6">If you were ?</label>
+          <select id="question-6">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+          </select>
+      </div>
+        <button type="submit" class="btn">Where should I vacation?</button>
+      </form>
+
+      <div id="reveal">
+        <p>Hello,<span id="person1"></span></p>
+        <p>You should go to <span id="destination"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
