@@ -4,6 +4,10 @@ select {
   margin-bottom: 20px;
 }
 
+span {
+  cursor: pointer;
+}
+
 .btn {
   display: block;
   margin-bottom: 20px;

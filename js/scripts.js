@@ -23,8 +23,8 @@ $(document).ready(function() {
     var questionTen = parseInt($("select#question-10").val());
     var result = questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix +questionSeven + questionEight + questionNine + questionTen;
 
-    if (result < 10) {
-      $("#destination").text("answer some questions. Nothing in life is free. To get your recommendation, you must enter your responses");
+    if (result < 5) {
+      $("#destination").text("answer some more questions. Nothing in life is free. To get your recommendation, you must enter several responses");
     } else if (result >= 10 && result < 20) {
       $("#destination").text("go to London, England");
     } else if (result >= 10 && result < 20) {
@@ -53,5 +53,4 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
-
 });
