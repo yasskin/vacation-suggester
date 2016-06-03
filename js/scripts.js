@@ -23,8 +23,8 @@ $(document).ready(function() {
     var questionTen = parseInt($("select#question-10").val());
     var result = questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix +questionSeven + questionEight + questionNine + questionTen;
 
-    if (result < 5) {
-      $("#destination").text("answer some more questions. Nothing in life is free. To get your recommendation, you must enter several responses");
+    if (result < 15) {
+      $("#destination").text("answer some more questions. Nothing in life is free. To get your recommendation, you must enter more responses");
       $("#try-again-hidden").show();
     } else if (result < 20) {
       $("#destination").text("go to London, England");

@@ -29,6 +29,14 @@ span {
   margin-top: 20px;
 }
 
+.form-control {
+  width: 35%;
+}
+
+#person1 {
+  width: 35%;
+}
+
 #reveal-name {
   display: none;
   margin-top: 15px;
