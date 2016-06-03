@@ -1,14 +1,7 @@
 $(document).ready(function() {
 
-  $("form#greetings-form").submit(function(event) {
-    var person1Input = $("input#person1").val();
 
-    $(".person1").text(person1Input);
-
-    $("#reveal-name").show();
-
-    event.preventDefault();
-  });
+  //Back-end or Business Logic
 
   $("form#vacation-form").submit(function(event) {
     var questionOne = parseInt($("select#question-1").val());
@@ -23,7 +16,19 @@ $(document).ready(function() {
     var questionTen = parseInt($("select#question-10").val());
     var result = questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix +questionSeven + questionEight + questionNine + questionTen;
 
-    if (result < 15) {
+//Front-end or User Interface (UI) logic
+
+$("form#greetings-form").submit(function(event) {
+  var person1Input = $("input#person1").val();
+
+  $(".person1").text(person1Input);
+
+  $("#reveal-name").show();
+
+  event.preventDefault();
+});
+
+    if (result < 10) {
       $("#destination").text("answer some more questions. Nothing in life is free. To get your recommendation, you must enter more responses");
       $("#try-again-hidden").show();
     } else if (result < 20) {
@@ -62,6 +67,10 @@ $(document).ready(function() {
     }
 
     $("#reveal-destination").show();
+
+    $("img").click(function() {
+      alert("This is an image.");
+    });
 
     event.preventDefault();
   });
