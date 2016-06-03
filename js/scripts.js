@@ -3,7 +3,9 @@ $(document).ready(function() {
   $("form#greetings-form").submit(function(event) {
     var person1Input = $("input#person1").val();
 
-    $("#person1").text("person1Input");
+    $(".person1").text(person1Input);
+
+    $("#reveal-name").show();
 
     event.preventDefault();
   });
@@ -29,8 +31,9 @@ $(document).ready(function() {
       $("#destination").text("Destination Five");
     }
 
-    $("#reveal").show();
+    $("#reveal-destination").show();
 
     event.preventDefault();
   });
+  
 });

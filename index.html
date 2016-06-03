@@ -16,11 +16,14 @@
 
       <form id="greetings-form">
         <div class="form-group">
-          <label for="person1">Hello, What is your name?</label>
+          <label for="person1">Hello, tell me your name?</label>
           <input id="person1" class="form-control" type="text">
         </div>
         <button type="submit" class"btn">Submit!</button>
       </form>
+      <div id="reveal-name">
+        <p>Hello,<span class="person1"></span></p>
+      </div>
 
       <form id="vacation-form">
         <div class="form-group">
@@ -58,8 +61,8 @@
         <button type="submit" class="btn">Where should I vacation?</button>
       </form>
 
-      <div id="reveal">
-        <p>Hello,<span id="person1"></span></p>
+      <div id="reveal-destination">
+        <p>Hello,<span class="person1"></span></p>
         <p>You should go to <span id="destination"></span>.</p>
       </div>
     </div>

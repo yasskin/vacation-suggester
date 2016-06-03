@@ -1,13 +1,25 @@
+select {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .btn {
   display: block;
   margin-bottom: 20px;
 }
 
-#reveal {
+.person1 {
+  margin-left: 15px;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+#reveal-name {
   display: none;
 }
 
-select {
-  display: block;
-  margin-bottom: 20px;
+#reveal-destination {
+  display: none;
 }
