@@ -3,6 +3,10 @@ body {
   padding-bottom: 30px;
 }
 
+img {
+  display: none;
+}
+
 select {
   display: block;
   margin-bottom: 20px;
@@ -10,6 +14,7 @@ select {
 
 span {
   cursor: pointer;
+  color: #0088cc;
 }
 
 .btn {
@@ -27,8 +32,14 @@ span {
 
 #reveal-name {
   display: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #reveal-destination {
+  display: none;
+}
+
+#london-hidden {
   display: none;
 }

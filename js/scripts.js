@@ -51,6 +51,10 @@ $(document).ready(function() {
 
     $("#reveal-destination").show();
 
+    $().click(function() {
+      $("#london-showing").show();
+    });
+
     event.preventDefault();
   });
 });
