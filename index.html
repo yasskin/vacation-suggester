@@ -25,21 +25,20 @@
 
       <div class="page-header">
         <h1>Take the Survey</h1>
+        <form id="greetings-form">
+          <div class="form-group">
+            <h3>Hello, human, to find your destination, tell me your name.</h3>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <button type="submit" class"btn">Submit!</button>
+        </form>
+        <div id="reveal-name">
+          <p>Hello,<span class="person1"></span></p>
+        </div>
       </div>
 
       <div class="row">
         <div class="col-md-6">
-
-          <form id="greetings-form">
-            <div class="form-group">
-              <label for="person1">Hello, human, to get started, tell me your name.</label>
-              <input id="person1" class="form-control" type="text">
-            </div>
-            <button type="submit" class"btn">Submit!</button>
-          </form>
-          <div id="reveal-name">
-            <p>Hello,<span class="person1"></span></p>
-          </div>
 
           <h3>Read each statement and let us know whether you agree or disagree"
           <form id="vacation-form">
@@ -110,14 +109,49 @@
         </div>
 
         <div class="col-md-6">
+
           <div id="reveal-destination">
             <p>Well,<span class="person1"></span></p>
             <p>We recommend that you should: <span id="destination"></span>.</p>
           </div>
-          <div id="london-hidden">
-            <img src="img/london-england.jpg" class="img-responsive" alt=
-            Responsive image" class="img-rounded">
+
+          <div id="try-again-hidden">
+            <img id="try-again" src="img/try-again.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
           </div>
+          <div id="london-hidden">
+            <img src="img/london-england.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="sydney-hidden">
+            <img src="img/sydney-australia.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="amsterdam-hidden">
+            <img src="img/amsterdam-netherlands.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="paris-hidden">
+            <img src="img/paris-france.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="rome-hidden">
+            <img src="img/rome-italy.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="budapest-hidden">
+            <img src="img/budapest-hungary.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="tokyo-hidden">
+            <img src="img/tokyo-japan.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="cusco-hidden">
+            <img src="img/cusco-peru.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="marrakech-hidden">
+            <img src="img/marrakech-morocco.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="siem-reap-hidden">
+            <img src="img/siem-reap-cambodia.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+          <div id="kathmandu-hidden">
+            <img src="img/kathmandu-nepal.jpg" class="img-responsive" alt="responsive image" class="img-rounded">
+          </div>
+
         </div>
       </div>
     </div>

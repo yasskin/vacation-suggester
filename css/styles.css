@@ -14,7 +14,6 @@ select {
 
 span {
   cursor: pointer;
-  color: #0088cc;
 }
 
 .btn {
@@ -40,6 +39,57 @@ span {
   display: none;
 }
 
+#try-again-hidden {
+  display: none;
+}
+
+#try-again {
+  width: 60%;
+  display: block;
+  padding: 20px;
+  margin: auto;
+}
+
 #london-hidden {
+  display: none;
+}
+
+#sydney-hidden {
+  display: none;
+}
+
+#amsterdam-hidden {
+  display: none;
+}
+
+#paris-hidden {
+  display: none;
+}
+
+#rome-hidden {
+  display: none;
+}
+
+#budapest-hidden {
+  display: none;
+}
+
+#tokyo-hidden {
+  display: none;
+}
+
+#cusco-hidden {
+  display: none;
+}
+
+#marrakech-hidden {
+  display: none;
+}
+
+#siem-reap-hidden {
+  display: none;
+}
+
+#kathmandu-hidden {
   display: none;
 }
