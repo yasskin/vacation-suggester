@@ -67,6 +67,10 @@ button {
   margin: auto;
 }
 
+#wanderlust {
+  display: none;
+}
+
 #london-hidden {
   display: none;
 }

@@ -9,6 +9,7 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
   //Back-end or Business Logic
 
   $("form#vacation-form").submit(function(event) {
@@ -68,7 +69,7 @@ $(document).ready(function() {
     $("#more-destinations").show();
 
     $("#more-destinations").click(function() {
-      $("#kathmandu-hidden").fadeIn();
+      $("#wanderlust").fadeIn();
     });
 
     event.preventDefault();
