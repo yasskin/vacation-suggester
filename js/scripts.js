@@ -23,28 +23,30 @@ $(document).ready(function() {
     var questionTen = parseInt($("select#question-10").val());
     var result = questionOne + questionTwo + questionThree + questionFour + questionFive + questionSix +questionSeven + questionEight + questionNine + questionTen;
 
-    if (result < 20) {
-      $("#destination").text("Destination 1");
+    if (result < 10) {
+      $("#destination").text("answer some questions. Nothing in life is free. To get your recommendation, you must enter your responses");
     } else if (result >= 10 && result < 20) {
-      $("#destination").text("Destination 2");
+      $("#destination").text("go to London, England");
+    } else if (result >= 10 && result < 20) {
+      $("#destination").text("go to Sidney, Australia");
     } else if (result >= 20 && result < 30) {
-      $("#destination").text("Destination 3");
+      $("#destination").text("go to Amsterdam, Netherlands");
     } else if (result >= 30 && result < 40) {
-      $("#destination").text("Destination 4");
+      $("#destination").text("go to Paris, France");
     } else if (result >= 40 && result < 50) {
-      $("#destination").text("Destination 5");
+      $("#destination").text("go to Rome, Italy");
     } else if (result >= 50 && result < 60) {
-      $("#destination").text("Destination 6");
+      $("#destination").text("go to Budapest, Hungary");
     } else if (result >= 60 && result < 70) {
-      $("#destination").text("Destination 7");
+      $("#destination").text("go to Tokyo, Japan");
     } else if (result >= 70 && result <80) {
-      $("#destination").text("Destination 8");
+      $("#destination").text("go to Cusco, Peru");
     } else if (result >= 80 && result <90) {
-      $("#destination").text("Destination 9");
+      $("#destination").text("go to Marrakech, Morocco");
     } else if (result >= 90 && result <100) {
-      $("#destination").text("Destination 10");
+      $("#destination").text("go to Siem Reap, Cambodia");
     } else if (result = 100) {
-      $("#destination").text("Destination 11");
+      $("#destination").text("go to Kathmandu, Nepal");
     }
 
     $("#reveal-destination").show();

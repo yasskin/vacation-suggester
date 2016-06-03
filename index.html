@@ -12,7 +12,7 @@
       <h1>Vacation Suggester</h1>
       <h3>Which of the World's Great Destination Cities Should You Visit?</h3>
       <p>A webpage (using HTML, CSS, JavaScript and JQuery) where a user can answer questions about themselves and be given a vacation destination based on their answers.</p>
-      <p>The site has 10 survey questions. It offers several vacation destination suggestions.</p>
+      <p>The site has 10 survey questions. It offers several vacation destination suggestions based on youyr personality type.</p>
 
       <form id="greetings-form">
         <div class="form-group">
@@ -25,57 +25,68 @@
         <p>Hello,<span class="person1"></span></p>
       </div>
 
+      <h3>Read each statement and let us know whether you agree or disagree"
       <form id="vacation-form">
         <div class="form-group">
-          <label for="question-1">Do you?</label>
+          <label for="question-1">I live by my own code of values.</label>
           <select id="question-1">
-            <option value="10">Option 1</option>
-            <option value="0">Option 2</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-2">Would you ?</label>
+          <label for="question-2">I enjoy the thrill of risk and routinely engage in high-risk activities.</label>
           <select id="question-2">
-            <option value="10">Option 1</option>
-            <option value="0">Option 2</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-3">Have you?</label>
+          <label for="question-3">I expect each human being to be responsible for themselves.</label>
           <select id="question-3">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-4">Can you?</label>
+          <label for="question-4">I have the art of winning friends and influencing people.</label>
           <select id="question-4">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-5">Should you ?</label>
+          <label for="question-5">I keep on the move; living by my talents, skills, ingenuity and wits.</label>
           <select id="question-5">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-6">If you were ?</label>
+          <label for="question-6">I am courageous, physically bold, and tough.</label>
           <select id="question-6">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-7">If you were ?</label>
+          <label for="question-7">I live in the present; not feeling guilty about the past or anxious about the future.</label>
           <select id="question-7">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-8">If you were ?</label>
+          <label for="question-8">To live is to dare.</label>
           <select id="question-8">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-9">If you were ?</label>
+          <label for="question-9">I stand up to exploitation.</label>
           <select id="question-9">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
-          <label for="question-10">If you were ?</label>
+          <label for="question-10">I am spontaneous and act rather than plan.</label>
           <select id="question-10">
-            <option value="10">Yes</option>
-            <option value="0">No</option>
+            <option value="0">Agree or Disagree?</option>
+            <option value="10">Agree</option>
+            <option value="0">Disagree</option>
           </select>
       </div>
         <button type="submit" class="btn">Where should I vacation?</button>
@@ -83,7 +94,7 @@
 
       <div id="reveal-destination">
         <p>Hello,<span class="person1"></span></p>
-        <p>You should go to <span id="destination"></span>.</p>
+        <p>We recommend that you should: <span id="destination"></span>.</p>
       </div>
     </div>
   </body>
