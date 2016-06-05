@@ -18,7 +18,7 @@ _This is my week two Student Project called "Vacation Suggester" It was created 
 
 ## Known Bugs
 
-_There are no known bugs_
+_Business logic should have a === operator rather than a single =_
 
 ## Support and contact details
 
